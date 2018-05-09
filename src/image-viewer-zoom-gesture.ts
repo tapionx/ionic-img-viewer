@@ -4,7 +4,7 @@ import { DIRECTION_HORIZONTAL, DIRECTION_VERTICAL } from 'ionic-angular/gestures
 
 import { ImageViewerComponent } from './image-viewer.component';
 
-const MAX_SCALE = 3;
+const MAX_SCALE = 10;
 
 export class ImageViewerZoomGesture extends Gesture {
 	private adjustScale = 1;
